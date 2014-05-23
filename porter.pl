@@ -124,4 +124,3 @@ while (<>)
 
 # As an easy speed-up, one might create a hash of word=>stemmed form, and look up each new
 # word in the hash, only calling stem() if the word was not found there.
-
