@@ -1,0 +1,9 @@
+.*
+!.gitignore
+*~
+.\#*
+\#*\#
+*.tex
+*.txt
+*.dat
+*.png
