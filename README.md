@@ -2,7 +2,7 @@ ANALYTEXT
 =============
 > A LaTex Aware Text Analysor and Visualisation
 
-A set of BASH scripts that will analyse your Text and LaTex Files and output complete and sectionwise graphs and databases
+A set of BASH scripts that will analyse your Text and LaTex Files and output complete and sectionwise word frequency graphs and data.
 
 
 DEPENDENCIES
@@ -17,7 +17,7 @@ RUN
 2. ```cd /path/to/this/repository```
 3. Copy text to be analysed into repository
 4. ```sudo chmod +x Metextractor.sh Analytex.sh Analytext.sh```
-5. Change the path of $scriptsdir in Metextractor.sh to the directory these repository files are in
+5. [Optional]Change the path of $scriptsdir in Metextractor.sh to the directory these repository files are in
 6. ```./Metextractor.sh Test.tex```
 7. ```./Analytex.sh```
 OR
@@ -26,11 +26,12 @@ OR
 
 DEBUGGING
 ---------------
-1. Download Analytext Repository
+0. Ignore Error "sed: can't read : No such file or directory"
+1. Enable "Hidden File View" to view output as all output prepended with "."
 2. Ensure all applications dependencies installed
 3. Make sure file permission are set correctly
-4. Change the path of $scriptsdir in Metextractor.sh to the directory these repository files are in
-5. Insert your tex/text file in the scriptsdir
+4. To run script from different folder change the path of $scriptsdir in Metextractor.sh
+5. Insert your tex/text file in the $scriptsdir
 
 
 REPOSITORY DESCRIPTION
@@ -54,4 +55,4 @@ LICENSE
 ---------------
 This program is free software; it is distributed under the GNU General Public License v3.
 
-[GPLv3](./LICENSE) Â© [debanjum](./AUTHORS)
+[GPLv3](./LICENSE) © [debanjum](./AUTHORS)
